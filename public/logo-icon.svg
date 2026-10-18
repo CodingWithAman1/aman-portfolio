@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120" width="100" height="120">
+  <defs>
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <!-- Cyan offset shadow / left apex leg for 'A' -->
+  <path d="M 46 16 L 36 16 L 8 98 L 26 98 L 36 68 L 56 68 L 50 48 L 42 48 L 47 32 Z" fill="#08fdd8" opacity="0.9" transform="translate(-4, 0)" />
+  <!-- Magenta / Pink main letter 'A' -->
+  <path d="M 52 16 L 44 16 L 16 98 L 34 98 L 42 72 L 68 72 L 76 98 L 94 98 Z M 55 34 L 64 60 L 46 60 Z" fill="#fd2155" />
+</svg>
